@@ -1,0 +1,38 @@
+header {
+  padding: 1rem
+}
+
+.food-list ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 1%
+}
+
+.static-list li {
+  color:#000000;
+}
+
+.main-header {
+  font-size: 2.0rem;
+  text-align: center;
+}
+
+.toggle-menu {
+  position: absolute;
+  display: none;
+  line-height: 1.9rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+@media all and (max-width: 480px) {
+  .main-header {
+    font-size: 1.2rem
+  }
+}
+
+@media all and (max-width: 705px) {
+  .toggle-menu {
+    display: block
+  }
+}

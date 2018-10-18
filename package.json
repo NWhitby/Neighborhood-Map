@@ -1,0 +1,28 @@
+{
+  "name": "salisbury-neighborhood-eats",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "escape-string-regexp": "^1.0.5",
+    "gh-pages": "^2.0.1",
+    "google-maps-react": "^2.0.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-google-maps": "^9.4.5",
+    "react-scripts": "1.1.4",
+    "recompose": "^0.27.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "dotenv": "^6.1.0"
+  }
+}
